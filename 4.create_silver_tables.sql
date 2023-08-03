@@ -1,4 +1,11 @@
 -- Databricks notebook source
+-- MAGIC %md
+-- MAGIC #### Create managed tables in the silver schema
+-- MAGIC 1. drivers
+-- MAGIC 2. results
+
+-- COMMAND ----------
+
 DROP TABLE IF EXISTS formula1_dev.silver.drivers;
 
 CREATE TABLE IF NOT EXISTS formula1_dev.silver.drivers

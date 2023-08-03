@@ -1,4 +1,11 @@
 -- Databricks notebook source
+-- MAGIC %md
+-- MAGIC #### Create Bronze Tables
+-- MAGIC 1. drivers.json
+-- MAGIC 2. results.json
+
+-- COMMAND ----------
+
 DROP TABLE IF EXISTS formula1_dev.bronze.drivers;
 
 CREATE TABLE IF NOT EXISTS formula1_dev.bronze.drivers
