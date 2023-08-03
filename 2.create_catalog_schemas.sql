@@ -1,4 +1,11 @@
 -- Databricks notebook source
+-- MAGIC %md
+-- MAGIC #### Create Catalogs and Schemas
+-- MAGIC 1. Catalog - formula1_dev (Without managed location)
+-- MAGIC 2. Schemas - bronze, silver and gold (With managed location)
+
+-- COMMAND ----------
+
 CREATE CATALOG IF NOT EXISTS formula1_dev;
 
 -- COMMAND ----------

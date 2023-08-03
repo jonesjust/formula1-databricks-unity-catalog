@@ -1,4 +1,10 @@
 -- Databricks notebook source
+-- MAGIC %md
+-- MAGIC #### Create managed table in the gold table.
+-- MAGIC Join drivers and results to identify the number of wins per driver
+
+-- COMMAND ----------
+
 DROP TABLE IF EXISTS formula1_dev.gold.driver_wins;
 
 CREATE TABLE formula1_dev.gold.driver_wins
